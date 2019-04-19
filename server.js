@@ -25,7 +25,7 @@ app.use('/user', users)
 app.use('/profile', profiles)
 
 // 设置端口号
-const port = 8085;
+const port = 8084;
 
 // 配置node服务地址
 app.listen(port, '0.0.0.0', (req, res) => {

@@ -74,7 +74,7 @@
  * ===================================================== *
  * 注册接口 POST
  * 注册用户
- * Address: http://api.link97.com:8085/profile/register
+ * Address: http://api.link97.com:8084/profile/register
  * 参数: name、email、password、management
  * Type:String
  * management 只接受两个值 ‘管理员’或‘员工’  string
@@ -104,7 +104,7 @@
  * ===================================================== *
  * 登录接口 POST
  * 注册用户
- * Address: http://api.link97.com:8085/profile/login
+ * Address: http://api.link97.com:8084/profile/login
  * 参数: email、password
  * Type:String
  * ===================================================== *
@@ -132,7 +132,7 @@
  * ===================================================== *
  * 添加数据接口 POST
  * 添加数据
- * Address: http://api.link97.com:8085/profile/add
+ * Address: http://api.link97.com:8084/profile/add
  * 参数: types、details、income、expend、account、remarks
  * Type:String
  * income、expend、account 这三个参数必须是字符串类型的数字 
@@ -143,7 +143,7 @@
  * ===================================================== *
  * 查询数据接口 POST
  * 获取所有用户的全部数据
- * Address: http://api.link97.com:8085/profile/getAll
+ * Address: http://api.link97.com:8084/profile/getAll
  * 参数: null
  * Type:null
  * ===================================================== *
@@ -153,7 +153,7 @@
  * ===================================================== * 
  * 编辑数据接口 POST
  * 编辑数据
- * Address: http://api.link97.com:8085/profile/edit
+ * Address: http://api.link97.com:8084/profile/edit
  * 参数: types、details、income、expend、account、remarks、id
  * Type:String
  * income、expend、account 这三个参数必须是字符串类型的数字
@@ -164,7 +164,7 @@
  * ===================================================== *
  * 删除数据接口 POST
  * 删除数据
- * Address: http://api.link97.com:8085/profile/delete
+ * Address: http://api.link97.com:8084/profile/delete
  * 参数: id
  * Type:String
  * ===================================================== *

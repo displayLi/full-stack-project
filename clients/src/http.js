@@ -2,7 +2,7 @@ import axios from 'axios'
 import { Message, Loading } from 'element-ui'
 import router from './router'
 
-axios.defaults.baseURL = 'http://api.link97.com:8085';
+axios.defaults.baseURL = 'http://api.link97.com:8084';
 axios.defaults.headers['Content-Type'] = 'application/json'
 
 let loading;
